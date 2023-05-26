@@ -9,4 +9,4 @@ def scrape(name="microsoft",length=1):
     click.echo(click.style(f"{result}", bg="blue",fg="red"))
 
 if __name__ == '__main__':
-    scrape('microsoft')
+    scrape()

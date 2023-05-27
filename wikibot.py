@@ -10,7 +10,5 @@ def cli(name,length):
     result= scrape(name,length)
     click.echo(click.style(f"{result}", bg="blue",fg="red"))
 
-main = click.command()(cli)
-
 if __name__ == '__main__':
-    main()
+    cli()
